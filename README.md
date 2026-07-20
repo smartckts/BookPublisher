@@ -1,6 +1,36 @@
-# book-builder
+# 📚 BookPublisher
 
-**Version 1.0.0** — a production-grade HTML → PDF publishing pipeline for pre-paginated textbook chapters. It measures real rendered layout in a headless browser, intelligently repaginates overflowing content while preserving appearance and educational order exactly, validates the result against 20 categories of production-readiness checks, and produces print-ready, font-embedded PDFs with bookmarks and metadata.
+> AI-powered publishing platform for creating, validating, optimizing, and generating professional educational textbooks, workbooks, and learning resources.
+
+![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Node.js-green.svg)
+![Status](https://img.shields.io/badge/status-Stable-success.svg)
+![License](https://img.shields.io/badge/license-Proprietary-red.svg)
+
+---
+
+## 🚀 Features
+
+- 🤖 AI-assisted educational book creation
+- 📚 Chapter management
+- 🎨 Professional textbook templates
+- 📄 High-quality PDF generation
+- 📑 Automatic bookmarks
+- ✅ Production validation
+- ⚡ Layout optimization
+- 📊 Report generation
+
+---
+
+## ✨ Highlights
+
+- 📚 Production-ready HTML → PDF publishing pipeline
+- ⚡ Intelligent page layout optimization
+- 🤖 AI-assisted textbook publishing workflow
+- ✅ 20-category validation engine
+- 📄 Font-embedded PDF generation
+- 📑 Automatic bookmarks and metadata
+- 🔍 Production readiness reports
 
 Built for and validated against an 11-chapter, 254-page Class 7 science textbook ("Space & Astronomy"). See `RELEASE_NOTES.md` for what v1.0.0 shipped, or `reports/release/release-certificate.md` for the signed-off production readiness determination for that specific book.
 
@@ -35,6 +65,15 @@ Rather than shrinking components to force an artificial page count (which alters
 
 Every move is logged (component id, source page, destination page, reason) for full auditability.
 
+## 🛠 Technology Stack
+
+- Node.js
+- Playwright
+- pdf-lib
+- HTML5
+- CSS3
+- JavaScript
+
 ## Quick start
 
 ```bash
@@ -48,7 +87,7 @@ See `INSTALL.md` for details and `USER_GUIDE.md` for running individual stages.
 ## Project structure
 
 ```
-book-builder/
+BookPublisher/
 ├── chapters/     source chapter HTML (never regenerated, never auto-modified except infrastructure — see ARCHITECTURE.md)
 ├── template/     reserved, unused in v1.0.0 (see template/README.md)
 ├── css/          self-hosted font assets + reference stylesheet
@@ -78,3 +117,58 @@ Full annotated tree: see `PROJECT_TREE.md`.
 ## Status: v1.0.0, frozen
 
 The publishing engine (`optimizer/`, `validator/`, `pdf/`, `config.js`, `components/`) is frozen as of this release. Changes require a reproducible defect report — see `DEVELOPER_GUIDE.md`.
+
+---
+
+# 🛣 Roadmap
+
+## Version 1.1
+
+- EPUB Export
+- DOCX Import
+- AI Layout Engine
+- Image Optimizer
+- Multi-language Support
+
+## Version 2.0
+
+- Cloud Publishing
+- Team Collaboration
+- AI Image Generation
+- AI Page Layout
+- EPUB 3 Support
+- Mobile Companion App
+
+---
+
+# 👨‍💻 Developer
+
+**Smartcircuits Innovation Pvt. Ltd.**
+
+📍 Yamunanagar, Haryana, India
+
+🌐 https://smartckts.com/
+
+---
+
+# 📌 Current Version
+
+**BookPublisher v1.0.0**
+
+Released: July 2026
+
+---
+
+# ⭐ Support
+
+If you find this project useful, please consider giving it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+Copyright © 2026 Smartcircuits Innovation Pvt. Ltd.
+
+All Rights Reserved.
+
+This repository contains proprietary software and may not be copied, modified, or redistributed without prior written permission.
