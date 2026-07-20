@@ -1,0 +1,1324 @@
+{
+  "chapter": "chapter-08",
+  "generatedAt": "2026-07-20T05:19:46.523Z",
+  "processingTimeMs": 4303,
+  "pages": {
+    "original": 25,
+    "optimized": 29,
+    "delta": 4,
+    "newPagesInserted": 4
+  },
+  "whitespaceReclaim": {
+    "measured": 3.5,
+    "reclaimableIfCssPassAdded": 2.8,
+    "usedForPacking": 3.5
+  },
+  "componentsMoved": 162,
+  "moveLog": [
+    {
+      "componentId": "c11",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 2,
+      "destinationPage": 3,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c12",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 2,
+      "destinationPage": 3,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c13",
+      "className": "box box-recap",
+      "componentClass": "atomic",
+      "sourcePage": 2,
+      "destinationPage": 3,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c17",
+      "className": "figure",
+      "componentClass": "atomic",
+      "sourcePage": 3,
+      "destinationPage": 4,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c18",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 3,
+      "destinationPage": 4,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c19",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 3,
+      "destinationPage": 4,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c20",
+      "className": "box box-scientist",
+      "componentClass": "keep-together",
+      "sourcePage": 3,
+      "destinationPage": 4,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c21",
+      "className": "box box-funfact mascot-callout",
+      "componentClass": "keep-together",
+      "sourcePage": 3,
+      "destinationPage": 4,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c23",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 4,
+      "destinationPage": 5,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c24",
+      "className": "box box-indian",
+      "componentClass": "atomic",
+      "sourcePage": 4,
+      "destinationPage": 5,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c25",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 4,
+      "destinationPage": 5,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c26",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 4,
+      "destinationPage": 5,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c27",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 4,
+      "destinationPage": 5,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c28",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 4,
+      "destinationPage": 5,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c29",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 4,
+      "destinationPage": 6,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c30",
+      "className": "box box-hots",
+      "componentClass": "keep-together",
+      "sourcePage": 4,
+      "destinationPage": 6,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c31",
+      "className": "box box-recap",
+      "componentClass": "atomic",
+      "sourcePage": 4,
+      "destinationPage": 6,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c32",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 5,
+      "destinationPage": 6,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c33",
+      "className": "lead",
+      "componentClass": "flexible",
+      "sourcePage": 5,
+      "destinationPage": 6,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c34",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 5,
+      "destinationPage": 6,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c35",
+      "className": "clearfix",
+      "componentClass": "keep-together",
+      "sourcePage": 5,
+      "destinationPage": 7,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c36",
+      "className": "table-wrap",
+      "componentClass": "atomic",
+      "sourcePage": 5,
+      "destinationPage": 7,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c37",
+      "className": "figure compact",
+      "componentClass": "atomic",
+      "sourcePage": 6,
+      "destinationPage": 7,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c38",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 6,
+      "destinationPage": 7,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c39",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 6,
+      "destinationPage": 8,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c40",
+      "className": "box box-didyouknow",
+      "componentClass": "keep-together",
+      "sourcePage": 6,
+      "destinationPage": 8,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c41",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 6,
+      "destinationPage": 8,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c42",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 6,
+      "destinationPage": 8,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c43",
+      "className": "box box-think",
+      "componentClass": "atomic",
+      "sourcePage": 6,
+      "destinationPage": 8,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c44",
+      "className": "box box-recap",
+      "componentClass": "atomic",
+      "sourcePage": 6,
+      "destinationPage": 8,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c45",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 7,
+      "destinationPage": 9,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c46",
+      "className": "lead",
+      "componentClass": "flexible",
+      "sourcePage": 7,
+      "destinationPage": 9,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c47",
+      "className": "timeline",
+      "componentClass": "atomic",
+      "sourcePage": 7,
+      "destinationPage": 9,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c48",
+      "className": "clearfix",
+      "componentClass": "keep-together",
+      "sourcePage": 7,
+      "destinationPage": 9,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c49",
+      "className": "figure",
+      "componentClass": "atomic",
+      "sourcePage": 8,
+      "destinationPage": 10,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c50",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 8,
+      "destinationPage": 10,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c51",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 8,
+      "destinationPage": 10,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c52",
+      "className": "box box-important",
+      "componentClass": "keep-together",
+      "sourcePage": 8,
+      "destinationPage": 10,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c53",
+      "className": "box box-space",
+      "componentClass": "keep-together",
+      "sourcePage": 8,
+      "destinationPage": 10,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c54",
+      "className": "photo-plate",
+      "componentClass": "atomic",
+      "sourcePage": 9,
+      "destinationPage": 11,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c55",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 9,
+      "destinationPage": 11,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c56",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 9,
+      "destinationPage": 11,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c57",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 9,
+      "destinationPage": 11,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c58",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 9,
+      "destinationPage": 11,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c59",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 9,
+      "destinationPage": 12,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c60",
+      "className": "box box-hots",
+      "componentClass": "keep-together",
+      "sourcePage": 9,
+      "destinationPage": 12,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c61",
+      "className": "box box-recap",
+      "componentClass": "atomic",
+      "sourcePage": 9,
+      "destinationPage": 12,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c62",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 10,
+      "destinationPage": 12,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c63",
+      "className": "lead",
+      "componentClass": "flexible",
+      "sourcePage": 10,
+      "destinationPage": 12,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c64",
+      "className": "figure",
+      "componentClass": "atomic",
+      "sourcePage": 10,
+      "destinationPage": 13,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c65",
+      "className": "box box-career mascot-callout",
+      "componentClass": "keep-together",
+      "sourcePage": 10,
+      "destinationPage": 13,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c66",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 11,
+      "destinationPage": 13,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c67",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 11,
+      "destinationPage": 13,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c68",
+      "className": "box box-funfact",
+      "componentClass": "keep-together",
+      "sourcePage": 11,
+      "destinationPage": 13,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c69",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 11,
+      "destinationPage": 13,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c70",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 11,
+      "destinationPage": 14,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c71",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 11,
+      "destinationPage": 14,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c72",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 11,
+      "destinationPage": 14,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c73",
+      "className": "box box-think",
+      "componentClass": "atomic",
+      "sourcePage": 11,
+      "destinationPage": 14,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c74",
+      "className": "box box-recap",
+      "componentClass": "atomic",
+      "sourcePage": 11,
+      "destinationPage": 14,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c75",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 12,
+      "destinationPage": 14,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c76",
+      "className": "lead",
+      "componentClass": "flexible",
+      "sourcePage": 12,
+      "destinationPage": 15,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c77",
+      "className": "figure",
+      "componentClass": "atomic",
+      "sourcePage": 12,
+      "destinationPage": 15,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c78",
+      "className": "clearfix",
+      "componentClass": "keep-together",
+      "sourcePage": 12,
+      "destinationPage": 15,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c79",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 13,
+      "destinationPage": 15,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c80",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 13,
+      "destinationPage": 15,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c81",
+      "className": "box box-stem",
+      "componentClass": "keep-together",
+      "sourcePage": 13,
+      "destinationPage": 15,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c82",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 13,
+      "destinationPage": 16,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c83",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 13,
+      "destinationPage": 16,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c84",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 13,
+      "destinationPage": 16,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c85",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 13,
+      "destinationPage": 16,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c86",
+      "className": "box box-hots",
+      "componentClass": "keep-together",
+      "sourcePage": 13,
+      "destinationPage": 16,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c87",
+      "className": "box box-recap",
+      "componentClass": "atomic",
+      "sourcePage": 13,
+      "destinationPage": 16,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c88",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 14,
+      "destinationPage": 16,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c89",
+      "className": "lead",
+      "componentClass": "flexible",
+      "sourcePage": 14,
+      "destinationPage": 17,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c90",
+      "className": "figure",
+      "componentClass": "atomic",
+      "sourcePage": 14,
+      "destinationPage": 17,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c91",
+      "className": "box box-safety",
+      "componentClass": "keep-together",
+      "sourcePage": 14,
+      "destinationPage": 17,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c92",
+      "className": "photo-plate",
+      "componentClass": "atomic",
+      "sourcePage": 15,
+      "destinationPage": 18,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c93",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 15,
+      "destinationPage": 18,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c94",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 15,
+      "destinationPage": 18,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c95",
+      "className": "clearfix",
+      "componentClass": "keep-together",
+      "sourcePage": 15,
+      "destinationPage": 18,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c96",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 15,
+      "destinationPage": 18,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c97",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 15,
+      "destinationPage": 19,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c98",
+      "className": "box box-hots",
+      "componentClass": "keep-together",
+      "sourcePage": 15,
+      "destinationPage": 19,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c99",
+      "className": "box box-recap",
+      "componentClass": "atomic",
+      "sourcePage": 15,
+      "destinationPage": 19,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c100",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 16,
+      "destinationPage": 19,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c101",
+      "className": "lead",
+      "componentClass": "flexible",
+      "sourcePage": 16,
+      "destinationPage": 19,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c102",
+      "className": "figure",
+      "componentClass": "atomic",
+      "sourcePage": 16,
+      "destinationPage": 20,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c103",
+      "className": "box box-important",
+      "componentClass": "keep-together",
+      "sourcePage": 16,
+      "destinationPage": 20,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c104",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 17,
+      "destinationPage": 20,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c105",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 17,
+      "destinationPage": 20,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c106",
+      "className": "box box-ai",
+      "componentClass": "keep-together",
+      "sourcePage": 17,
+      "destinationPage": 20,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c107",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 17,
+      "destinationPage": 20,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c108",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 17,
+      "destinationPage": 21,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c109",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 17,
+      "destinationPage": 21,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c110",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 17,
+      "destinationPage": 21,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c111",
+      "className": "box box-think",
+      "componentClass": "atomic",
+      "sourcePage": 17,
+      "destinationPage": 21,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c112",
+      "className": "box box-recap",
+      "componentClass": "atomic",
+      "sourcePage": 17,
+      "destinationPage": 21,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c113",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 18,
+      "destinationPage": 21,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c114",
+      "className": "lead",
+      "componentClass": "flexible",
+      "sourcePage": 18,
+      "destinationPage": 21,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c115",
+      "className": "clearfix",
+      "componentClass": "keep-together",
+      "sourcePage": 18,
+      "destinationPage": 22,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c116",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 18,
+      "destinationPage": 22,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c117",
+      "className": "figure",
+      "componentClass": "atomic",
+      "sourcePage": 19,
+      "destinationPage": 22,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c118",
+      "className": "box box-space",
+      "componentClass": "keep-together",
+      "sourcePage": 19,
+      "destinationPage": 22,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c119",
+      "className": "box box-parent",
+      "componentClass": "keep-together",
+      "sourcePage": 19,
+      "destinationPage": 22,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c120",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 19,
+      "destinationPage": 23,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c121",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 19,
+      "destinationPage": 23,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c122",
+      "className": "box box-hots",
+      "componentClass": "keep-together",
+      "sourcePage": 19,
+      "destinationPage": 23,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c123",
+      "className": "box box-recap",
+      "componentClass": "atomic",
+      "sourcePage": 19,
+      "destinationPage": 23,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c124",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 20,
+      "destinationPage": 23,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c125",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 20,
+      "destinationPage": 23,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c126",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 20,
+      "destinationPage": 23,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c127",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 20,
+      "destinationPage": 23,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c128",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 20,
+      "destinationPage": 24,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c129",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 20,
+      "destinationPage": 24,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c130",
+      "className": "table-wrap",
+      "componentClass": "atomic",
+      "sourcePage": 20,
+      "destinationPage": 24,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c131",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 21,
+      "destinationPage": 24,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c132",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 21,
+      "destinationPage": 24,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c133",
+      "className": "answer-space",
+      "componentClass": "keep-together",
+      "sourcePage": 21,
+      "destinationPage": 24,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c134",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 21,
+      "destinationPage": 24,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c135",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 21,
+      "destinationPage": 24,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c136",
+      "className": "activity",
+      "componentClass": "atomic",
+      "sourcePage": 21,
+      "destinationPage": 24,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c137",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 21,
+      "destinationPage": 25,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c138",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 21,
+      "destinationPage": 25,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c139",
+      "className": "box box-teacher",
+      "componentClass": "keep-together",
+      "sourcePage": 21,
+      "destinationPage": 25,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c140",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 22,
+      "destinationPage": 25,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c141",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 22,
+      "destinationPage": 25,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c142",
+      "className": "box box-recap",
+      "componentClass": "atomic",
+      "sourcePage": 22,
+      "destinationPage": 25,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c143",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 22,
+      "destinationPage": 25,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c144",
+      "className": "table-wrap",
+      "componentClass": "atomic",
+      "sourcePage": 22,
+      "destinationPage": 26,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c145",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 26,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c146",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 26,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c147",
+      "className": "mcq",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 26,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c148",
+      "className": "mcq",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 26,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c149",
+      "className": "mcq",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 26,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c150",
+      "className": "mcq",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 26,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c151",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 26,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c152",
+      "className": "mcq",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 27,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c153",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 27,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c154",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 23,
+      "destinationPage": 27,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c155",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 27,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c156",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 23,
+      "destinationPage": 27,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c157",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 27,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c158",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 23,
+      "destinationPage": 27,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c159",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 23,
+      "destinationPage": 27,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c160",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 23,
+      "destinationPage": 27,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c161",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 24,
+      "destinationPage": 27,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c162",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 24,
+      "destinationPage": 27,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c163",
+      "className": "figure compact",
+      "componentClass": "atomic",
+      "sourcePage": 24,
+      "destinationPage": 28,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c164",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 24,
+      "destinationPage": 28,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c165",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 24,
+      "destinationPage": 28,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c166",
+      "className": "table-wrap",
+      "componentClass": "atomic",
+      "sourcePage": 24,
+      "destinationPage": 28,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c167",
+      "className": "",
+      "componentClass": "flexible",
+      "sourcePage": 24,
+      "destinationPage": 28,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c168",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 24,
+      "destinationPage": 28,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c169",
+      "className": "quiz-box",
+      "componentClass": "atomic",
+      "sourcePage": 24,
+      "destinationPage": 28,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c170",
+      "className": "section-head",
+      "componentClass": "keep-together",
+      "sourcePage": 25,
+      "destinationPage": 28,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c171",
+      "className": "clearfix",
+      "componentClass": "keep-together",
+      "sourcePage": 25,
+      "destinationPage": 29,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c172",
+      "className": "box box-think",
+      "componentClass": "atomic",
+      "sourcePage": 25,
+      "destinationPage": 29,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c173",
+      "className": "subheading",
+      "componentClass": "keep-together",
+      "sourcePage": 25,
+      "destinationPage": 29,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c174",
+      "className": "table-wrap",
+      "componentClass": "atomic",
+      "sourcePage": 25,
+      "destinationPage": 29,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c175",
+      "className": "box box-recap mascot-callout",
+      "componentClass": "atomic",
+      "sourcePage": 25,
+      "destinationPage": 29,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    },
+    {
+      "componentId": "c176",
+      "className": "",
+      "componentClass": "keep-together",
+      "sourcePage": 25,
+      "destinationPage": 29,
+      "reason": "cascade-forward-overflow: source page exceeded the Maximum page budget"
+    }
+  ],
+  "oversizedComponentWarnings": [],
+  "qualityAfter": {
+    "averageQualityScore": 93.3,
+    "overflowingPages": 0,
+    "zones": {
+      "ideal": 17,
+      "warning": 12
+    }
+  }
+}

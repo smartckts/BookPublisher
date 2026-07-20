@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Validation Report — Book</title>
+<style>
+  :root { --border:#e2e5e9; --bg:#f7f8fa; }
+  * { box-sizing:border-box; }
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin:0; padding:32px; background:var(--bg); color:#1a1f26; }
+  h1 { font-size:22px; margin-bottom:4px; }
+  .meta { color:#5b6472; font-size:13px; margin-bottom:24px; }
+  .scores { display:flex; gap:16px; flex-wrap:wrap; margin-bottom:28px; }
+  .score-card { background:#fff; border:1px solid var(--border); border-radius:10px; padding:16px 20px; min-width:140px; text-align:center; }
+  .score-value { font-size:28px; font-weight:800; }
+  .score-label { font-size:12px; color:#5b6472; margin-top:4px; }
+  .overall { background:#fff; border:2px solid #9a6700; border-radius:10px; padding:20px; margin-bottom:28px; text-align:center; }
+  .overall .value { font-size:40px; font-weight:800; color:#9a6700; }
+  .overall .band { font-size:15px; color:#5b6472; margin-top:4px; }
+  section { background:#fff; border:1px solid var(--border); border-radius:10px; padding:20px; margin-bottom:24px; }
+  h2 { font-size:16px; margin-top:0; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--border); vertical-align:top; }
+  th { background:#fafbfc; font-size:11px; text-transform:uppercase; letter-spacing:0.03em; color:#5b6472; }
+  .badge { color:#fff; padding:2px 8px; border-radius:20px; font-size:11px; font-weight:700; }
+  ul.checklist { list-style:none; padding:0; margin:0; columns:2; }
+  ul.checklist li { padding:6px 0; font-size:14px; }
+  ul.checklist li.pass { color:#1a7f37; }
+  ul.checklist li.fail { color:#b91c1c; font-weight:700; }
+</style>
+</head>
+<body>
+  <h1>Validation Report</h1>
+  <div class="meta">Book · Generated 7/20/2026, 11:29:32 AM · 11 chapters validated · Read-only pass, no files modified</div>
+
+  <div class="overall">
+    <div class="value">87.6</div>
+    <div class="band">Overall Publisher Readiness — Minor Fixes Needed</div>
+  </div>
+
+  <div class="scores">
+    <div class="score-card">
+      <div class="score-value" style="color:#9a6700">78</div>
+      <div class="score-label">Content Integrity</div>
+    </div>
+    <div class="score-card">
+      <div class="score-value" style="color:#9a6700">88</div>
+      <div class="score-label">Layout Integrity</div>
+    </div>
+    <div class="score-card">
+      <div class="score-value" style="color:#1a7f37">100</div>
+      <div class="score-label">Typography</div>
+    </div>
+    <div class="score-card">
+      <div class="score-value" style="color:#1a7f37">95.8</div>
+      <div class="score-label">Accessibility</div>
+    </div>
+    <div class="score-card">
+      <div class="score-value" style="color:#9a6700">88</div>
+      <div class="score-label">Print Readiness</div>
+    </div></div>
+
+  <section>
+    <h2>Release Checklist</h2>
+    <ul class="checklist">
+    <li class="pass">✓ HTML Valid</li>
+  
+    <li class="pass">✓ CSS Valid</li>
+  
+    <li class="fail">✗ No Overflow</li>
+  
+    <li class="pass">✓ No Broken SVG</li>
+  
+    <li class="pass">✓ No Broken Images</li>
+  
+    <li class="pass">✓ No Duplicate IDs</li>
+  
+    <li class="pass">✓ Correct Numbering</li>
+  
+    <li class="pass">✓ Print Ready</li>
+  
+    <li class="fail">✗ Publisher Ready</li>
+  </ul>
+  </section>
+
+  <section>
+    <h2>Per-Chapter Summary</h2>
+    <table>
+      <thead><tr><th>Chapter</th><th>Pages</th><th>Critical</th><th>Major</th><th>Minor</th></tr></thead>
+      <tbody><tr><td>chapter-01</td><td>32</td><td>0</td><td>0</td><td>3</td></tr><tr><td>chapter-02</td><td>28</td><td>0</td><td>0</td><td>2</td></tr><tr><td>chapter-03</td><td>27</td><td>0</td><td>0</td><td>6</td></tr><tr><td>chapter-04</td><td>32</td><td>0</td><td>0</td><td>14</td></tr><tr><td>chapter-05</td><td>29</td><td>0</td><td>1</td><td>3</td></tr><tr><td>chapter-06</td><td>29</td><td>0</td><td>2</td><td>6</td></tr><tr><td>chapter-07</td><td>29</td><td>0</td><td>0</td><td>4</td></tr><tr><td>chapter-08</td><td>29</td><td>0</td><td>1</td><td>5</td></tr><tr><td>chapter-09</td><td>31</td><td>0</td><td>1</td><td>4</td></tr><tr><td>chapter-10</td><td>31</td><td>1</td><td>0</td><td>5</td></tr><tr><td>chapter-11</td><td>32</td><td>0</td><td>0</td><td>8</td></tr></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>All Issues (66 total — Critical 1, Major 5, Minor 60)</h2>
+    <table>
+      <thead><tr><th>Severity</th><th>Category</th><th>Chapter</th><th>Page</th><th>Description</th><th>Suggested Fix</th><th>Auto-fixable</th></tr></thead>
+      <tbody>
+    <tr>
+      <td><span class="badge" style="background:#b91c1c">Critical</span></td>
+      <td>Overflow or Clipping</td>
+      <td>chapter-10</td>
+      <td>1</td>
+      <td>Page renders at 303.3mm tall, exceeding the 297mm physical page — content will overflow onto an uncontrolled extra page when printed.</td>
+      <td>Re-run Intelligent Repagination on this chapter, or manually shorten/move a component.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#c4460c">Major</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-05</td>
+      <td>27</td>
+      <td>Figure has no caption text.</td>
+      <td>Add a figcaption describing the figure.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#c4460c">Major</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-06</td>
+      <td>8</td>
+      <td>Figure has no caption text.</td>
+      <td>Add a figcaption describing the figure.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#c4460c">Major</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-06</td>
+      <td>19</td>
+      <td>Figure has no caption text.</td>
+      <td>Add a figcaption describing the figure.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#c4460c">Major</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-08</td>
+      <td>28</td>
+      <td>Figure has no caption text.</td>
+      <td>Add a figcaption describing the figure.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#c4460c">Major</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-09</td>
+      <td>29</td>
+      <td>Figure has no caption text.</td>
+      <td>Add a figcaption describing the figure.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-01</td>
+      <td>27</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-01</td>
+      <td>30</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-01</td>
+      <td>30</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-02</td>
+      <td>10</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-02</td>
+      <td>20</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-03</td>
+      <td>20</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-03</td>
+      <td>20</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-03</td>
+      <td>23</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-03</td>
+      <td>26</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-03</td>
+      <td>26</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-03</td>
+      <td>27</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Accessibility Warnings</td>
+      <td>chapter-04</td>
+      <td>4</td>
+      <td>Image has no alt attribute.</td>
+      <td>Add a descriptive alt attribute (or alt=&quot;&quot; if purely decorative).</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Accessibility Warnings</td>
+      <td>chapter-04</td>
+      <td>6</td>
+      <td>Image has no alt attribute.</td>
+      <td>Add a descriptive alt attribute (or alt=&quot;&quot; if purely decorative).</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Accessibility Warnings</td>
+      <td>chapter-04</td>
+      <td>7</td>
+      <td>Image has no alt attribute.</td>
+      <td>Add a descriptive alt attribute (or alt=&quot;&quot; if purely decorative).</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Accessibility Warnings</td>
+      <td>chapter-04</td>
+      <td>10</td>
+      <td>Image has no alt attribute.</td>
+      <td>Add a descriptive alt attribute (or alt=&quot;&quot; if purely decorative).</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Accessibility Warnings</td>
+      <td>chapter-04</td>
+      <td>12</td>
+      <td>Image has no alt attribute.</td>
+      <td>Add a descriptive alt attribute (or alt=&quot;&quot; if purely decorative).</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Accessibility Warnings</td>
+      <td>chapter-04</td>
+      <td>15</td>
+      <td>Image has no alt attribute.</td>
+      <td>Add a descriptive alt attribute (or alt=&quot;&quot; if purely decorative).</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Accessibility Warnings</td>
+      <td>chapter-04</td>
+      <td>18</td>
+      <td>Image has no alt attribute.</td>
+      <td>Add a descriptive alt attribute (or alt=&quot;&quot; if purely decorative).</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Accessibility Warnings</td>
+      <td>chapter-04</td>
+      <td>20</td>
+      <td>Image has no alt attribute.</td>
+      <td>Add a descriptive alt attribute (or alt=&quot;&quot; if purely decorative).</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-04</td>
+      <td>3</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-04</td>
+      <td>10</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-04</td>
+      <td>20</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-04</td>
+      <td>24</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-04</td>
+      <td>28</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-04</td>
+      <td>31</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-05</td>
+      <td>8</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-05</td>
+      <td>14</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-05</td>
+      <td>24</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-06</td>
+      <td>13</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-06</td>
+      <td>21</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-06</td>
+      <td>24</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-06</td>
+      <td>27</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-06</td>
+      <td>28</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-06</td>
+      <td>29</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-07</td>
+      <td>10</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-07</td>
+      <td>13</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-07</td>
+      <td>25</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-07</td>
+      <td>29</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-08</td>
+      <td>7</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-08</td>
+      <td>24</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-08</td>
+      <td>26</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-08</td>
+      <td>28</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-08</td>
+      <td>29</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-09</td>
+      <td>5</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-09</td>
+      <td>19</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-09</td>
+      <td>27</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-09</td>
+      <td>30</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-10</td>
+      <td>5</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-10</td>
+      <td>9</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-10</td>
+      <td>15</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-10</td>
+      <td>23</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-10</td>
+      <td>27</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-11</td>
+      <td>3</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-11</td>
+      <td>6</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-11</td>
+      <td>14</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-11</td>
+      <td>20</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-11</td>
+      <td>21</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-11</td>
+      <td>28</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-11</td>
+      <td>30</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td><span class="badge" style="background:#9a6700">Minor</span></td>
+      <td>Missing Captions</td>
+      <td>chapter-11</td>
+      <td>31</td>
+      <td>Table has no caption/title text.</td>
+      <td>Add a &lt;caption&gt; or preceding label describing the table.</td>
+      <td>No</td>
+    </tr></tbody>
+    </table>
+  </section>
+</body>
+</html>

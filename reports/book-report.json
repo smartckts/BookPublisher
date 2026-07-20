@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-07-20T11:29:00.793Z",
+  "totalChapters": 11,
+  "totalPages": {
+    "original": 254,
+    "optimized": 329
+  },
+  "newPagesInserted": 75,
+  "componentsMoved": 1611,
+  "processingTimeSeconds": 58.6,
+  "averagePageDensity": [
+    {
+      "chapter": "chapter-01",
+      "averageQualityScore": 92.6
+    },
+    {
+      "chapter": "chapter-02",
+      "averageQualityScore": 93.5
+    },
+    {
+      "chapter": "chapter-03",
+      "averageQualityScore": 93.2
+    },
+    {
+      "chapter": "chapter-04",
+      "averageQualityScore": 93.5
+    },
+    {
+      "chapter": "chapter-05",
+      "averageQualityScore": 93.1
+    },
+    {
+      "chapter": "chapter-06",
+      "averageQualityScore": 93.2
+    },
+    {
+      "chapter": "chapter-07",
+      "averageQualityScore": 93.4
+    },
+    {
+      "chapter": "chapter-08",
+      "averageQualityScore": 93.3
+    },
+    {
+      "chapter": "chapter-09",
+      "averageQualityScore": 93.5
+    },
+    {
+      "chapter": "chapter-10",
+      "averageQualityScore": 91.7
+    },
+    {
+      "chapter": "chapter-11",
+      "averageQualityScore": 93.8
+    }
+  ],
+  "validation": {
+    "bookHealth": {
+      "contentIntegrityScore": 78,
+      "layoutIntegrityScore": 88,
+      "typographyScore": 100,
+      "accessibilityScore": 95.8,
+      "printReadinessScore": 88,
+      "overallPublisherReadinessScore": 87.6,
+      "band": "Minor Fixes Needed"
+    },
+    "releaseChecklist": {
+      "HTML Valid": true,
+      "CSS Valid": true,
+      "No Overflow": false,
+      "No Broken SVG": true,
+      "No Broken Images": true,
+      "No Duplicate IDs": true,
+      "Correct Numbering": true,
+      "Print Ready": true,
+      "Publisher Ready": false
+    }
+  }
+}

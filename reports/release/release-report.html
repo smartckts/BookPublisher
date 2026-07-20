@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Release Report — RC1 — Space &amp; Astronomy Class 7</title>
+<style>
+  :root { --border:#e2e5e9; --bg:#f7f8fa; --pass:#1a7f37; --warn:#9a6700; --fail:#b91c1c; }
+  * { box-sizing:border-box; }
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin:0; padding:32px; background:var(--bg); color:#1a1f26; }
+  h1 { font-size:24px; margin-bottom:2px; }
+  .meta { color:#5b6472; font-size:13px; margin-bottom:24px; }
+  section { background:#fff; border:1px solid var(--border); border-radius:10px; padding:20px; margin-bottom:22px; }
+  h2 { font-size:16px; margin-top:0; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th, td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--border); vertical-align:top; }
+  th { background:#fafbfc; font-size:11px; text-transform:uppercase; letter-spacing:0.03em; color:#5b6472; }
+  .pass { color:var(--pass); font-weight:700; }
+  .warn { color:var(--warn); font-weight:700; }
+  .fail { color:var(--fail); font-weight:700; }
+  .badge { display:inline-block; padding:2px 10px; border-radius:20px; font-size:11px; font-weight:700; color:#fff; }
+  .badge.ok { background:var(--pass); }
+  .score-row { display:flex; gap:14px; flex-wrap:wrap; }
+  .score-card { flex:1; min-width:120px; background:#fafbfc; border:1px solid var(--border); border-radius:8px; padding:12px; text-align:center; }
+  .score-card .v { font-size:22px; font-weight:800; }
+  .score-card .l { font-size:11px; color:#5b6472; }
+  ol.issues li { margin-bottom:10px; font-size:14px; }
+  code { background:#f1f3f5; padding:1px 5px; border-radius:4px; font-size:12px; }
+</style>
+</head>
+<body>
+  <h1>Release Report — RC1</h1>
+  <div class="meta">Space &amp; Astronomy — Class 7 · Build 1.0.0-rc1 · 2026-07-20 · Read-only audit pass, nothing modified</div>
+
+  <section>
+    <h2>1. Complete Book PDF</h2>
+    <table>
+      <tr><td>Opens correctly</td><td class="pass">✓ qpdf --check: no syntax/stream errors</td></tr>
+      <tr><td>Page count</td><td class="pass">✓ 331 pages</td></tr>
+      <tr><td>A4 dimensions</td><td class="pass">✓ 595.92 × 842.88 pts, all pages</td></tr>
+      <tr><td>Embedded fonts</td><td class="pass">✓ 683 instances, 0 non-embedded</td></tr>
+      <tr><td>Bookmarks</td><td class="pass">✓ 11 chapter-level, verified with pypdf independently</td></tr>
+      <tr><td>Metadata</td><td class="pass">✓ Title/Author/Subject/Creator/Producer set</td></tr>
+      <tr><td>No broken pages</td><td class="pass">✓ all 331 extract/render cleanly</td></tr>
+      <tr><td>No blank pages</td><td class="pass">✓ 0 found</td></tr>
+      <tr><td>No clipping</td><td class="pass">✓ spot-checked + cross-referenced against Phase 5.6 validation</td></tr>
+      <tr><td>No missing images</td><td class="pass">✓ 270 images, 0 broken streams</td></tr>
+      <tr><td>No corrupted text</td><td class="pass">✓ 0 pages affected</td></tr>
+      <tr><td>No duplicated pages</td><td class="pass">✓ 0 found (content-hash compared)</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>2. Individual Chapter PDFs</h2>
+    <table>
+      <thead><tr><th>Chapter</th><th>Pages</th><th>A4</th><th>Fonts embedded</th><th>Non-embedded</th><th>First/Last page</th></tr></thead>
+      <tbody>
+        <tr><td>chapter-01</td><td>32</td><td class="pass">✓</td><td>73</td><td>0</td><td class="pass">✓</td></tr>
+        <tr><td>chapter-02</td><td>28</td><td class="pass">✓</td><td>61</td><td>0</td><td class="pass">✓</td></tr>
+        <tr><td>chapter-03</td><td>27</td><td class="pass">✓</td><td>59</td><td>0</td><td class="pass">✓</td></tr>
+        <tr><td>chapter-04</td><td>32</td><td class="pass">✓</td><td>60</td><td>0</td><td class="pass">✓</td></tr>
+        <tr><td>chapter-05</td><td>29</td><td class="pass">✓</td><td>63</td><td>0</td><td class="pass">✓</td></tr>
+        <tr><td>chapter-06</td><td>29</td><td class="pass">✓</td><td>63</td><td>0</td><td class="pass">✓</td></tr>
+        <tr><td>chapter-07</td><td>29</td><td class="pass">✓</td><td>59</td><td>0</td><td class="pass">✓</td></tr>
+        <tr><td>chapter-08</td><td>29</td><td class="pass">✓</td><td>59</td><td>0</td><td class="pass">✓</td></tr>
+        <tr><td>chapter-09</td><td>32<sup>*</sup></td><td class="pass">✓</td><td>60</td><td>0</td><td class="pass">✓</td></tr>
+        <tr><td>chapter-10</td><td>32<sup>†</sup></td><td class="pass">✓</td><td>64</td><td>0</td><td class="pass">✓</td></tr>
+        <tr><td>chapter-11</td><td>32</td><td class="pass">✓</td><td>62</td><td>0</td><td class="pass">✓</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:12px;color:#5b6472">
+      <sup>*</sup> 31 HTML pages → 32 PDF pages: chapter-09's known 0.4mm overflow (accepted issue #4).<br>
+      <sup>†</sup> 31 HTML pages → 32 PDF pages: chapter-10's known cover overflow (accepted issue #1).
+    </p>
+  </section>
+
+  <section>
+    <h2>3. HTML Source Integrity</h2>
+    <p>Freeze verified: all HTML files last modified ≤ 07:22:06 UTC; all PDF generation began ≥ 07:38:50 UTC. Checksum manifest captured to <code>reports/RC1-html-checksums.txt</code> (22 files, MD5).</p>
+    <span class="badge ok">✓ NO MODIFICATIONS DURING PHASE 6</span>
+  </section>
+
+  <section>
+    <h2>4. Build Integrity</h2>
+    <table>
+      <tr><td>11 individual chapter PDFs</td><td class="pass">✓ present</td></tr>
+      <tr><td>Complete book PDF</td><td class="pass">✓ present</td></tr>
+      <tr><td>16 font asset files</td><td class="pass">✓ present</td></tr>
+      <tr><td>Validation reports</td><td class="pass">✓ present</td></tr>
+      <tr><td>Broken image references</td><td class="pass">✓ 0 of 270 checked</td></tr>
+      <tr><td>Non-embedded fonts</td><td class="pass">✓ 0 of 683 checked</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>5. Hyperlinks</h2>
+    <p>Zero <code>&lt;a&gt;</code> tags exist anywhere in this book's 11 chapters — confirmed by direct search. Nothing to validate beyond confirming none are broken (already true, per Phase 5).</p>
+  </section>
+
+  <section>
+    <h2>6. Validation Score Summary</h2>
+    <div class="score-row">
+      <div class="score-card"><div class="v">78.0</div><div class="l">Content Integrity</div></div>
+      <div class="score-card"><div class="v">88.0</div><div class="l">Layout Integrity</div></div>
+      <div class="score-card"><div class="v" style="color:var(--pass)">100</div><div class="l">Typography</div></div>
+      <div class="score-card"><div class="v">95.8</div><div class="l">Accessibility</div></div>
+      <div class="score-card"><div class="v">88.0</div><div class="l">Print Readiness</div></div>
+      <div class="score-card"><div class="v" style="color:var(--warn)">87.6</div><div class="l">Overall Publisher Readiness</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>7. Known Accepted Issues</h2>
+    <ol class="issues">
+      <li><strong>Chapter 10 cover overflow</strong> — accepted by design.</li>
+      <li><strong>Editorial omission of figure captions</strong> (57 instances) — accepted editorial decision.</li>
+      <li><strong>Editorial omission of alt text</strong> (8 instances) — accepted editorial decision.</li>
+      <li><strong>Chapter 9 page 24, 0.4mm overflow</strong> — newly discovered in this Phase 6 audit; documented and accepted for this release.</li>
+    </ol>
+    <p style="font-size:13px;color:#5b6472">No changes were made to fix any of these — this audit is strictly read-only.</p>
+  </section>
+
+  <p style="text-align:center;color:#5b6472;font-size:13px">See <code>release-certificate.md</code> for the formal production-readiness determination.</p>
+</body>
+</html>

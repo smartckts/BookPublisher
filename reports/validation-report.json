@@ -1,0 +1,902 @@
+{
+  "generatedAt": "2026-07-20T11:29:32.221Z",
+  "meta": {
+    "bookTitle": "Book",
+    "chaptersValidated": 11,
+    "generator": "book-builder validator v1"
+  },
+  "bookHealth": {
+    "contentIntegrityScore": 78,
+    "layoutIntegrityScore": 88,
+    "typographyScore": 100,
+    "accessibilityScore": 95.8,
+    "printReadinessScore": 88,
+    "overallPublisherReadinessScore": 87.6,
+    "band": "Minor Fixes Needed"
+  },
+  "releaseChecklist": {
+    "HTML Valid": true,
+    "CSS Valid": true,
+    "No Overflow": false,
+    "No Broken SVG": true,
+    "No Broken Images": true,
+    "No Duplicate IDs": true,
+    "Correct Numbering": true,
+    "Print Ready": true,
+    "Publisher Ready": false
+  },
+  "summary": {
+    "totalIssues": 66,
+    "bySeverity": {
+      "Critical": 1,
+      "Major": 5,
+      "Minor": 60
+    },
+    "byCategory": {
+      "Missing Captions": 57,
+      "Accessibility Warnings": 8,
+      "Overflow or Clipping": 1
+    },
+    "autoFixableCount": 8
+  },
+  "chapters": [
+    {
+      "chapter": "chapter-01",
+      "totalPages": 32,
+      "issueCount": 3,
+      "issuesBySeverity": {
+        "Critical": 0,
+        "Major": 0,
+        "Minor": 3
+      },
+      "issues": [
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 27,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-01"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 30,
+          "selector": "<table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-01"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 30,
+          "selector": "<table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-01"
+        }
+      ]
+    },
+    {
+      "chapter": "chapter-02",
+      "totalPages": 28,
+      "issueCount": 2,
+      "issuesBySeverity": {
+        "Critical": 0,
+        "Major": 0,
+        "Minor": 2
+      },
+      "issues": [
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 10,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-02"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 20,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-02"
+        }
+      ]
+    },
+    {
+      "chapter": "chapter-03",
+      "totalPages": 27,
+      "issueCount": 6,
+      "issuesBySeverity": {
+        "Critical": 0,
+        "Major": 0,
+        "Minor": 6
+      },
+      "issues": [
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 20,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-03"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 20,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-03"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 23,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-03"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 26,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-03"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 26,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-03"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 27,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-03"
+        }
+      ]
+    },
+    {
+      "chapter": "chapter-04",
+      "totalPages": 32,
+      "issueCount": 14,
+      "issuesBySeverity": {
+        "Critical": 0,
+        "Major": 0,
+        "Minor": 14
+      },
+      "issues": [
+        {
+          "check": "image-missing-alt",
+          "category": "Accessibility Warnings",
+          "severity": "Minor",
+          "description": "Image has no alt attribute.",
+          "page": 4,
+          "selector": "<img>",
+          "suggestedFix": "Add a descriptive alt attribute (or alt=\"\" if purely decorative).",
+          "autoFixable": true,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "image-missing-alt",
+          "category": "Accessibility Warnings",
+          "severity": "Minor",
+          "description": "Image has no alt attribute.",
+          "page": 6,
+          "selector": "<img>",
+          "suggestedFix": "Add a descriptive alt attribute (or alt=\"\" if purely decorative).",
+          "autoFixable": true,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "image-missing-alt",
+          "category": "Accessibility Warnings",
+          "severity": "Minor",
+          "description": "Image has no alt attribute.",
+          "page": 7,
+          "selector": "<img>",
+          "suggestedFix": "Add a descriptive alt attribute (or alt=\"\" if purely decorative).",
+          "autoFixable": true,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "image-missing-alt",
+          "category": "Accessibility Warnings",
+          "severity": "Minor",
+          "description": "Image has no alt attribute.",
+          "page": 10,
+          "selector": "<img>",
+          "suggestedFix": "Add a descriptive alt attribute (or alt=\"\" if purely decorative).",
+          "autoFixable": true,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "image-missing-alt",
+          "category": "Accessibility Warnings",
+          "severity": "Minor",
+          "description": "Image has no alt attribute.",
+          "page": 12,
+          "selector": "<img>",
+          "suggestedFix": "Add a descriptive alt attribute (or alt=\"\" if purely decorative).",
+          "autoFixable": true,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "image-missing-alt",
+          "category": "Accessibility Warnings",
+          "severity": "Minor",
+          "description": "Image has no alt attribute.",
+          "page": 15,
+          "selector": "<img>",
+          "suggestedFix": "Add a descriptive alt attribute (or alt=\"\" if purely decorative).",
+          "autoFixable": true,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "image-missing-alt",
+          "category": "Accessibility Warnings",
+          "severity": "Minor",
+          "description": "Image has no alt attribute.",
+          "page": 18,
+          "selector": "<img>",
+          "suggestedFix": "Add a descriptive alt attribute (or alt=\"\" if purely decorative).",
+          "autoFixable": true,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "image-missing-alt",
+          "category": "Accessibility Warnings",
+          "severity": "Minor",
+          "description": "Image has no alt attribute.",
+          "page": 20,
+          "selector": "<img>",
+          "suggestedFix": "Add a descriptive alt attribute (or alt=\"\" if purely decorative).",
+          "autoFixable": true,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 3,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 10,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 20,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 24,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 28,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-04"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 31,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-04"
+        }
+      ]
+    },
+    {
+      "chapter": "chapter-05",
+      "totalPages": 29,
+      "issueCount": 4,
+      "issuesBySeverity": {
+        "Critical": 0,
+        "Major": 1,
+        "Minor": 3
+      },
+      "issues": [
+        {
+          "check": "missing-figure-caption",
+          "category": "Missing Captions",
+          "severity": "Major",
+          "description": "Figure has no caption text.",
+          "page": 27,
+          "selector": "<div.figure.compact>",
+          "suggestedFix": "Add a figcaption describing the figure.",
+          "autoFixable": false,
+          "chapter": "chapter-05"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 8,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-05"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 14,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-05"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 24,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-05"
+        }
+      ]
+    },
+    {
+      "chapter": "chapter-06",
+      "totalPages": 29,
+      "issueCount": 8,
+      "issuesBySeverity": {
+        "Critical": 0,
+        "Major": 2,
+        "Minor": 6
+      },
+      "issues": [
+        {
+          "check": "missing-figure-caption",
+          "category": "Missing Captions",
+          "severity": "Major",
+          "description": "Figure has no caption text.",
+          "page": 8,
+          "selector": "<div.figure.compact>",
+          "suggestedFix": "Add a figcaption describing the figure.",
+          "autoFixable": false,
+          "chapter": "chapter-06"
+        },
+        {
+          "check": "missing-figure-caption",
+          "category": "Missing Captions",
+          "severity": "Major",
+          "description": "Figure has no caption text.",
+          "page": 19,
+          "selector": "<div.figure.compact>",
+          "suggestedFix": "Add a figcaption describing the figure.",
+          "autoFixable": false,
+          "chapter": "chapter-06"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 13,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-06"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 21,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-06"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 24,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-06"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 27,
+          "selector": "<table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-06"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 28,
+          "selector": "<table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-06"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 29,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-06"
+        }
+      ]
+    },
+    {
+      "chapter": "chapter-07",
+      "totalPages": 29,
+      "issueCount": 4,
+      "issuesBySeverity": {
+        "Critical": 0,
+        "Major": 0,
+        "Minor": 4
+      },
+      "issues": [
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 10,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-07"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 13,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-07"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 25,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-07"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 29,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-07"
+        }
+      ]
+    },
+    {
+      "chapter": "chapter-08",
+      "totalPages": 29,
+      "issueCount": 6,
+      "issuesBySeverity": {
+        "Critical": 0,
+        "Major": 1,
+        "Minor": 5
+      },
+      "issues": [
+        {
+          "check": "missing-figure-caption",
+          "category": "Missing Captions",
+          "severity": "Major",
+          "description": "Figure has no caption text.",
+          "page": 28,
+          "selector": "<div.figure.compact>",
+          "suggestedFix": "Add a figcaption describing the figure.",
+          "autoFixable": false,
+          "chapter": "chapter-08"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 7,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-08"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 24,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-08"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 26,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-08"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 28,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-08"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 29,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-08"
+        }
+      ]
+    },
+    {
+      "chapter": "chapter-09",
+      "totalPages": 31,
+      "issueCount": 5,
+      "issuesBySeverity": {
+        "Critical": 0,
+        "Major": 1,
+        "Minor": 4
+      },
+      "issues": [
+        {
+          "check": "missing-figure-caption",
+          "category": "Missing Captions",
+          "severity": "Major",
+          "description": "Figure has no caption text.",
+          "page": 29,
+          "selector": "<div.figure.compact>",
+          "suggestedFix": "Add a figcaption describing the figure.",
+          "autoFixable": false,
+          "chapter": "chapter-09"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 5,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-09"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 19,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-09"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 27,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-09"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 30,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-09"
+        }
+      ]
+    },
+    {
+      "chapter": "chapter-10",
+      "totalPages": 31,
+      "issueCount": 6,
+      "issuesBySeverity": {
+        "Critical": 1,
+        "Major": 0,
+        "Minor": 5
+      },
+      "issues": [
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 5,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-10"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 9,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-10"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 15,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-10"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 23,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-10"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 27,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-10"
+        },
+        {
+          "check": "page-overflow",
+          "category": "Overflow or Clipping",
+          "severity": "Critical",
+          "description": "Page renders at 303.3mm tall, exceeding the 297mm physical page — content will overflow onto an uncontrolled extra page when printed.",
+          "page": 1,
+          "selector": null,
+          "suggestedFix": "Re-run Intelligent Repagination on this chapter, or manually shorten/move a component.",
+          "autoFixable": false,
+          "chapter": "chapter-10"
+        }
+      ]
+    },
+    {
+      "chapter": "chapter-11",
+      "totalPages": 32,
+      "issueCount": 8,
+      "issuesBySeverity": {
+        "Critical": 0,
+        "Major": 0,
+        "Minor": 8
+      },
+      "issues": [
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 3,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-11"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 6,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-11"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 14,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-11"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 20,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-11"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 21,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-11"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 28,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-11"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 30,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-11"
+        },
+        {
+          "check": "missing-table-caption",
+          "category": "Missing Captions",
+          "severity": "Minor",
+          "description": "Table has no caption/title text.",
+          "page": 31,
+          "selector": "<table.data-table>",
+          "suggestedFix": "Add a <caption> or preceding label describing the table.",
+          "autoFixable": false,
+          "chapter": "chapter-11"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+/* css/local-fonts.css
+ * Self-hosted replacement for the Google Fonts CDN <link> that every
+ * chapter previously relied on at render/print time.
+ *
+ * WHY THIS EXISTS (Phase 5.5 finding, validator-confirmed):
+ * Every chapter linked https://fonts.googleapis.com/css2?family=... .
+ * In any offline or network-restricted PDF-generation environment that
+ * request fails, and document.fonts reports ZERO loaded custom fonts —
+ * the entire book silently renders in system fallback fonts instead of
+ * the design system's actual typography (Poppins / Playfair Display /
+ * Nunito / Roboto / Inter). Verified directly: before this fix,
+ * document.fonts.size === 0 in this sandboxed environment.
+ *
+ * FONT SOURCE: @fontsource/* packages (npm), which repackage the exact
+ * same font files Google Fonts serves, under the same SIL Open Font
+ * License, for self-hosted use — not a different/approximate font.
+ * Only the Latin subset and the specific weights each chapter's CSS
+ * actually requests are included, keeping the bundle small (~316KB
+ * total across 17 files for the whole book).
+ *
+ * Weights included, matching the exact request every chapter's
+ * Google Fonts <link> made:
+ *   Poppins:         600, 700, 800   (--font-head)
+ *   Playfair Display: 700, 800       (--font-display)
+ *   Nunito:          400, 600, 700, 800  (--font-body)
+ *   Roboto:          400, 500, 700   (--font-cap)
+ *   Inter:           400, 500, 600, 700  (--font-table)
+ */
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('fonts/poppins-latin-600-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/poppins-latin-700-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('fonts/poppins-latin-800-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/playfair-display-latin-700-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('fonts/playfair-display-latin-800-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/nunito-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('fonts/nunito-latin-600-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/nunito-latin-700-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('fonts/nunito-latin-800-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/roboto-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('fonts/roboto-latin-500-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/roboto-latin-700-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/inter-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('fonts/inter-latin-500-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('fonts/inter-latin-600-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/inter-latin-700-normal.woff2') format('woff2');
+}

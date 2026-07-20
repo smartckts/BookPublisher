@@ -1,0 +1,3774 @@
+{
+  "chapter": "chapter-09.optimized",
+  "sourceFile": "/home/claude/book/publisher/build/chapter-09.optimized.html",
+  "analyzedAt": "2026-07-20T05:20:33.722Z",
+  "pageBudget": {
+    "idealMaxMm": 224.1,
+    "warningMaxMm": 249,
+    "maximumMm": 250,
+    "contentWidthMm": 166
+  },
+  "summary": {
+    "totalPages": 31,
+    "overflowingPages": 0,
+    "zones": {
+      "ideal": 20,
+      "warning": 11
+    },
+    "averageQualityScore": 93.5,
+    "totalOverflowMm": 0,
+    "minimumExtraPagesLowerBound": 0
+  },
+  "pages": [
+    {
+      "pageIndex": 1,
+      "pageType": "full-bleed",
+      "totalHeightMm": 297,
+      "contentUsedMm": 245,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": false,
+      "hasFooter": false,
+      "qualityScore": 100,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 100,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 3,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "",
+          "heightMm": 12.17,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "",
+          "heightMm": 52.28,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "",
+          "heightMm": 29.1,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 2,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 225.16,
+      "widthMm": 210,
+      "zone": "warning",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 95.7,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 98.7,
+        "structuralIntegrity": 100,
+        "breakQuality": 75,
+        "overflow": false
+      },
+      "componentCount": 5,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "hero-banner",
+          "heightMm": 54.58,
+          "selector": ".hero-banner",
+          "class": "atomic",
+          "moveCostBase": 20,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "p",
+          "className": "lead",
+          "heightMm": 34.46,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "two-col",
+          "heightMm": 81.37,
+          "selector": ".two-col",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "mascot-dialogue",
+          "heightMm": 21.96,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 3,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 217.83,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 99.4,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 98.6,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 6,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "mascot-dialogue reverse",
+          "heightMm": 21.96,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "box box-think",
+          "heightMm": 37.89,
+          "selector": ".box-think",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "p",
+          "className": "lead",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "div",
+          "className": "figure",
+          "heightMm": 69.26,
+          "selector": ".figure",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 4,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 203.71,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 91.4,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 95.3,
+        "structuralIntegrity": 100,
+        "breakQuality": 55,
+        "overflow": false
+      },
+      "componentCount": 6,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "box box-indian",
+          "heightMm": 43.42,
+          "selector": ".box-indian",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "box box-funfact",
+          "heightMm": 36.83,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 38.77,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "subheading",
+          "heightMm": 7.79,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 5,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 223.85,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 100,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 99.9,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 5,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "mascot-callout box box-career",
+          "heightMm": 33.92,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "table-wrap",
+          "heightMm": 47.7,
+          "selector": ".table-wrap",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "box box-scientist",
+          "heightMm": 36.83,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-hots",
+          "heightMm": 38.41,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "box box-recap",
+          "heightMm": 54.29,
+          "selector": ".box-recap",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 6,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 189.62,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 93,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 92,
+        "structuralIntegrity": 100,
+        "breakQuality": 75,
+        "overflow": false
+      },
+      "componentCount": 7,
+      "components": [
+        {
+          "order": 0,
+          "tag": "p",
+          "className": "",
+          "heightMm": 38.1,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "p",
+          "className": "lead",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "mascot-left girl clearfix",
+          "heightMm": 39.69,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 6,
+          "tag": "div",
+          "className": "box box-safety",
+          "heightMm": 36.83,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 7,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 211.34,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 95.1,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 97.1,
+        "structuralIntegrity": 100,
+        "breakQuality": 75,
+        "overflow": false
+      },
+      "componentCount": 4,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 38.77,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "figure",
+          "heightMm": 88.33,
+          "selector": ".figure",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "box box-indian",
+          "heightMm": 36.83,
+          "selector": ".box-indian",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-ai",
+          "heightMm": 36.83,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 8,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 211.42,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 92.1,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 97.1,
+        "structuralIntegrity": 100,
+        "breakQuality": 55,
+        "overflow": false
+      },
+      "componentCount": 6,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 38.77,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "box box-think",
+          "heightMm": 31.29,
+          "selector": ".box-think",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-recap",
+          "heightMm": 48.08,
+          "selector": ".box-recap",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "p",
+          "className": "lead",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 9,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 216.53,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 95.6,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 98.3,
+        "structuralIntegrity": 100,
+        "breakQuality": 75,
+        "overflow": false
+      },
+      "componentCount": 6,
+      "components": [
+        {
+          "order": 0,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "mascot-dialogue",
+          "heightMm": 16.23,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "mascot-dialogue reverse",
+          "heightMm": 21.96,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-funfact",
+          "heightMm": 30.23,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "figure",
+          "heightMm": 74.18,
+          "selector": ".figure",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "div",
+          "className": "box box-stem",
+          "heightMm": 30.23,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 10,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 234.43,
+      "widthMm": 210,
+      "zone": "warning",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 88.3,
+      "qualityBand": "Good",
+      "qualityBreakdown": {
+        "fillEfficiency": 87.6,
+        "structuralIntegrity": 100,
+        "breakQuality": 55,
+        "overflow": false
+      },
+      "componentCount": 7,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 38.77,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-hots",
+          "heightMm": 31.82,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "box box-recap",
+          "heightMm": 41.87,
+          "selector": ".box-recap",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 6,
+          "tag": "p",
+          "className": "lead",
+          "heightMm": 20.67,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 11,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 172.65,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 95.1,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 87.8,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 5,
+      "components": [
+        {
+          "order": 0,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "mascot-right boy clearfix",
+          "heightMm": 39.69,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "p",
+          "className": "",
+          "heightMm": 20.67,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-safety",
+          "heightMm": 36.83,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "figure compact",
+          "heightMm": 77.79,
+          "selector": ".figure",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 12,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 229.23,
+      "widthMm": 210,
+      "zone": "warning",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 97.5,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 93.8,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 6,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "box box-indian",
+          "heightMm": 36.83,
+          "selector": ".box-indian",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "box box-parent",
+          "heightMm": 36.83,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 38.77,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "box box-hots",
+          "heightMm": 31.82,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "div",
+          "className": "box box-recap",
+          "heightMm": 35.66,
+          "selector": ".box-recap",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 13,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 141.72,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 88.1,
+      "qualityBand": "Good",
+      "qualityBreakdown": {
+        "fillEfficiency": 79.5,
+        "structuralIntegrity": 100,
+        "breakQuality": 75,
+        "overflow": false
+      },
+      "componentCount": 6,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "p",
+          "className": "lead",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "mascot-left girl clearfix",
+          "heightMm": 39.69,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "p",
+          "className": "",
+          "heightMm": 20.67,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "div",
+          "className": "box box-funfact",
+          "heightMm": 36.83,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 14,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 234,
+      "widthMm": 210,
+      "zone": "warning",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 95.2,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 88.1,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 3,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "figure",
+          "heightMm": 85.9,
+          "selector": ".figure",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "box box-indian",
+          "heightMm": 36.83,
+          "selector": ".box-indian",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "photo-plate",
+          "heightMm": 103.87,
+          "selector": ".photo-plate",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 15,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 223.12,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 93.2,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 99.8,
+        "structuralIntegrity": 100,
+        "breakQuality": 55,
+        "overflow": false
+      },
+      "componentCount": 7,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "box box-hots",
+          "heightMm": 31.82,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-recap",
+          "heightMm": 35.66,
+          "selector": ".box-recap",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "p",
+          "className": "lead",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 6,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 16,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 178.49,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 95.7,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 89.2,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 5,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "mascot-right boy clearfix",
+          "heightMm": 39.69,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "box box-safety",
+          "heightMm": 30.23,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "figure",
+          "heightMm": 73.81,
+          "selector": ".figure",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "box box-indian",
+          "heightMm": 36.83,
+          "selector": ".box-indian",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 17,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 239.73,
+      "widthMm": 210,
+      "zone": "warning",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 85.7,
+      "qualityBand": "Good",
+      "qualityBreakdown": {
+        "fillEfficiency": 81.2,
+        "structuralIntegrity": 100,
+        "breakQuality": 55,
+        "overflow": false
+      },
+      "componentCount": 7,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "two-col",
+          "heightMm": 37.18,
+          "selector": ".two-col",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-hots",
+          "heightMm": 31.82,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "box box-recap",
+          "heightMm": 41.87,
+          "selector": ".box-recap",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 6,
+          "tag": "p",
+          "className": "lead",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 18,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 173.96,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 95.2,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 88.1,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 5,
+      "components": [
+        {
+          "order": 0,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "mascot-left girl clearfix",
+          "heightMm": 39.69,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "p",
+          "className": "",
+          "heightMm": 20.67,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-funfact",
+          "heightMm": 30.23,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "figure",
+          "heightMm": 85.7,
+          "selector": ".figure",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 19,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 223.78,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 100,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 99.9,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 6,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "box box-indian",
+          "heightMm": 36.83,
+          "selector": ".box-indian",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "table-wrap",
+          "heightMm": 38.27,
+          "selector": ".table-wrap",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "box box-hots",
+          "heightMm": 31.82,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "div",
+          "className": "box box-recap",
+          "heightMm": 35.66,
+          "selector": ".box-recap",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 20,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 148.61,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 88.8,
+      "qualityBand": "Good",
+      "qualityBreakdown": {
+        "fillEfficiency": 81.4,
+        "structuralIntegrity": 100,
+        "breakQuality": 75,
+        "overflow": false
+      },
+      "componentCount": 6,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "p",
+          "className": "lead",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "mascot-right boy clearfix",
+          "heightMm": 39.69,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "div",
+          "className": "box box-stem",
+          "heightMm": 36.83,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 21,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 231.28,
+      "widthMm": 210,
+      "zone": "warning",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 96.5,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 91.3,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 3,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "figure",
+          "heightMm": 84.24,
+          "selector": ".figure",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "box box-indian",
+          "heightMm": 36.83,
+          "selector": ".box-indian",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "photo-plate",
+          "heightMm": 102.81,
+          "selector": ".photo-plate",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 22,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 235.54,
+      "widthMm": 210,
+      "zone": "warning",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 87.7,
+      "qualityBand": "Good",
+      "qualityBreakdown": {
+        "fillEfficiency": 86.2,
+        "structuralIntegrity": 100,
+        "breakQuality": 55,
+        "overflow": false
+      },
+      "componentCount": 7,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "box box-hots",
+          "heightMm": 31.82,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-recap",
+          "heightMm": 48.08,
+          "selector": ".box-recap",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "p",
+          "className": "lead",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 6,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 23,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 142.5,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 91.9,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 79.7,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 4,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "mascot-left girl clearfix",
+          "heightMm": 39.69,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "p",
+          "className": "",
+          "heightMm": 27.57,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "box box-space",
+          "heightMm": 36.83,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "figure",
+          "heightMm": 71.76,
+          "selector": ".figure",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 24,
+      "pageType": "standard",
+      "totalHeightMm": 297.4,
+      "contentUsedMm": 241.47,
+      "widthMm": 210,
+      "zone": "warning",
+      "overflowMm": 0.4,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 91.6,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 79.1,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 5,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "timeline tight",
+          "heightMm": 82.48,
+          "selector": ".timeline",
+          "class": "atomic",
+          "moveCostBase": 16,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-hots",
+          "heightMm": 31.82,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "box box-recap",
+          "heightMm": 48.08,
+          "selector": ".box-recap",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 25,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 217.97,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 99.4,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 98.6,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 4,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "quiz-box",
+          "heightMm": 63.66,
+          "selector": ".quiz-box",
+          "class": "atomic",
+          "moveCostBase": 10,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "quiz-box",
+          "heightMm": 70.55,
+          "selector": ".quiz-box",
+          "class": "atomic",
+          "moveCostBase": 10,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "quiz-box",
+          "heightMm": 63.66,
+          "selector": ".quiz-box",
+          "class": "atomic",
+          "moveCostBase": 10,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 26,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 239.68,
+      "widthMm": 210,
+      "zone": "warning",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 82.7,
+      "qualityBand": "Good",
+      "qualityBreakdown": {
+        "fillEfficiency": 81.2,
+        "structuralIntegrity": 80,
+        "breakQuality": 75,
+        "overflow": false
+      },
+      "componentCount": 7,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 54.64,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 38.77,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "activity",
+          "heightMm": 31.87,
+          "selector": ".activity",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "box box-teacher",
+          "heightMm": 30.23,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "div",
+          "className": "box box-parent",
+          "heightMm": 30.23,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 6,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": true,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 27,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 225.55,
+      "widthMm": 210,
+      "zone": "warning",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 95.6,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 98.3,
+        "structuralIntegrity": 100,
+        "breakQuality": 75,
+        "overflow": false
+      },
+      "componentCount": 4,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "box box-recap",
+          "heightMm": 97.76,
+          "selector": ".box-recap",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "subheading",
+          "heightMm": 7.79,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "table-wrap",
+          "heightMm": 86.93,
+          "selector": ".table-wrap",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "mascot-dialogue",
+          "heightMm": 21.96,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 28,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 228.89,
+      "widthMm": 210,
+      "zone": "warning",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 93.9,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 94.2,
+        "structuralIntegrity": 100,
+        "breakQuality": 75,
+        "overflow": false
+      },
+      "componentCount": 10,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "mcq",
+          "heightMm": 26.17,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "mcq",
+          "heightMm": 20.25,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "mcq",
+          "heightMm": 20.25,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "subheading",
+          "heightMm": 7.79,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "p",
+          "className": "",
+          "heightMm": 13.78,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 6,
+          "tag": "p",
+          "className": "",
+          "heightMm": 13.78,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 7,
+          "tag": "div",
+          "className": "subheading",
+          "heightMm": 7.79,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 8,
+          "tag": "p",
+          "className": "",
+          "heightMm": 13.78,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 9,
+          "tag": "div",
+          "className": "box box-important",
+          "heightMm": 59.53,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 29,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 223.44,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 99.9,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 99.9,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 4,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "box box-hots",
+          "heightMm": 38.41,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "div",
+          "className": "two-col",
+          "heightMm": 107.5,
+          "selector": ".two-col",
+          "class": "atomic",
+          "moveCostBase": 12,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "box box-think",
+          "heightMm": 51.08,
+          "selector": ".box-think",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 30,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 215.7,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 99.2,
+      "qualityBand": "Excellent",
+      "qualityBreakdown": {
+        "fillEfficiency": 98.1,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 7,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "mascot-dialogue reverse",
+          "heightMm": 21.96,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 1,
+          "tag": "div",
+          "className": "section-head",
+          "heightMm": 16.39,
+          "selector": ".section-head",
+          "class": "keep-together",
+          "moveCostBase": 10,
+          "bondsToNextSibling": true,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 2,
+          "tag": "p",
+          "className": "lead",
+          "heightMm": 20.67,
+          "selector": "p",
+          "class": "flexible",
+          "moveCostBase": 2,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 3,
+          "tag": "div",
+          "className": "quiz-box",
+          "heightMm": 44.06,
+          "selector": ".quiz-box",
+          "class": "atomic",
+          "moveCostBase": 10,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 4,
+          "tag": "div",
+          "className": "subheading",
+          "heightMm": 7.79,
+          "selector": "*",
+          "class": "keep-together",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 5,
+          "tag": "div",
+          "className": "table-wrap",
+          "heightMm": 57.13,
+          "selector": ".table-wrap",
+          "class": "atomic",
+          "moveCostBase": 14,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": false,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        },
+        {
+          "order": 6,
+          "tag": "div",
+          "className": "mascot-callout box box-recap",
+          "heightMm": 27.32,
+          "selector": ".box-recap",
+          "class": "atomic",
+          "moveCostBase": 8,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    },
+    {
+      "pageIndex": 31,
+      "pageType": "standard",
+      "totalHeightMm": 297,
+      "contentUsedMm": 30.29,
+      "widthMm": 210,
+      "zone": "ideal",
+      "overflowMm": 0,
+      "isOverflowing": false,
+      "footerCollision": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "qualityScore": 74.7,
+      "qualityBand": "Acceptable",
+      "qualityBreakdown": {
+        "fillEfficiency": 36.8,
+        "structuralIntegrity": 100,
+        "breakQuality": 100,
+        "overflow": false
+      },
+      "componentCount": 1,
+      "components": [
+        {
+          "order": 0,
+          "tag": "div",
+          "className": "card",
+          "heightMm": 30.29,
+          "selector": ".card",
+          "class": "atomic",
+          "moveCostBase": 6,
+          "bondsToNextSibling": false,
+          "shrinkable": [
+            "whitespace"
+          ],
+          "endsPage": true,
+          "isOrphanedHeading": false,
+          "widowOrphanViolation": false,
+          "forcedSplit": false,
+          "originalPageIndex": null
+        }
+      ]
+    }
+  ]
+}

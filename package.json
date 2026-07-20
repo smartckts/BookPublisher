@@ -1,0 +1,22 @@
+{
+  "name": "book-builder",
+  "version": "1.0.0",
+  "description": "Production-grade HTML-to-PDF book publishing pipeline with layout analysis, intelligent repagination, quality validation, and print-ready PDF generation.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "analyze": "node scripts/analyze.js",
+    "optimize": "node scripts/optimize.js",
+    "validate": "node scripts/validate.js",
+    "pdf": "node scripts/generate-pdf.js",
+    "build-book": "node build.js",
+    "report": "node scripts/book-report.js"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "playwright": "1.56.0"
+  }
+}

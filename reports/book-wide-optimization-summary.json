@@ -1,0 +1,146 @@
+{
+  "chapters": [
+    {
+      "chapter": "01",
+      "before_pages": 28,
+      "after_pages": 32,
+      "inserted": 4,
+      "moves": 108,
+      "quality_before": 79.4,
+      "quality_after": 91.8,
+      "overflow_before": 7,
+      "overflow_after": 0,
+      "time_ms": 1877
+    },
+    {
+      "chapter": "02",
+      "before_pages": 20,
+      "after_pages": 28,
+      "inserted": 8,
+      "moves": 141,
+      "quality_before": 62.4,
+      "quality_after": 93.5,
+      "overflow_before": 12,
+      "overflow_after": 0,
+      "time_ms": 8383
+    },
+    {
+      "chapter": "03",
+      "before_pages": 19,
+      "after_pages": 27,
+      "inserted": 8,
+      "moves": 140,
+      "quality_before": 51.1,
+      "quality_after": 93.3,
+      "overflow_before": 15,
+      "overflow_after": 0,
+      "time_ms": 6626
+    },
+    {
+      "chapter": "04",
+      "before_pages": 20,
+      "after_pages": 32,
+      "inserted": 12,
+      "moves": 164,
+      "quality_before": 45.7,
+      "quality_after": 93.5,
+      "overflow_before": 18,
+      "overflow_after": 0,
+      "time_ms": 6729
+    },
+    {
+      "chapter": "05",
+      "before_pages": 22,
+      "after_pages": 29,
+      "inserted": 7,
+      "moves": 152,
+      "quality_before": 61.6,
+      "quality_after": 93.2,
+      "overflow_before": 13,
+      "overflow_after": 0,
+      "time_ms": 1912
+    },
+    {
+      "chapter": "06",
+      "before_pages": 20,
+      "after_pages": 29,
+      "inserted": 9,
+      "moves": 128,
+      "quality_before": 56.7,
+      "quality_after": 93.1,
+      "overflow_before": 14,
+      "overflow_after": 0,
+      "time_ms": 1987
+    },
+    {
+      "chapter": "07",
+      "before_pages": 24,
+      "after_pages": 29,
+      "inserted": 5,
+      "moves": 141,
+      "quality_before": 64.8,
+      "quality_after": 93.3,
+      "overflow_before": 14,
+      "overflow_after": 0,
+      "time_ms": 2040
+    },
+    {
+      "chapter": "08",
+      "before_pages": 25,
+      "after_pages": 29,
+      "inserted": 4,
+      "moves": 162,
+      "quality_before": 67,
+      "quality_after": 93.3,
+      "overflow_before": 12,
+      "overflow_after": 0,
+      "time_ms": 4303
+    },
+    {
+      "chapter": "09",
+      "before_pages": 26,
+      "after_pages": 31,
+      "inserted": 5,
+      "moves": 153,
+      "quality_before": 68,
+      "quality_after": 93.5,
+      "overflow_before": 12,
+      "overflow_after": 0,
+      "time_ms": 6389
+    },
+    {
+      "chapter": "10",
+      "before_pages": 24,
+      "after_pages": 30,
+      "inserted": 6,
+      "moves": 145,
+      "quality_before": 63.2,
+      "quality_after": 91.6,
+      "overflow_before": 14,
+      "overflow_after": 1,
+      "time_ms": 5990
+    },
+    {
+      "chapter": "11",
+      "before_pages": 26,
+      "after_pages": 31,
+      "inserted": 5,
+      "moves": 164,
+      "quality_before": 63.7,
+      "quality_after": 94,
+      "overflow_before": 17,
+      "overflow_after": 0,
+      "time_ms": 6356
+    }
+  ],
+  "totals": {
+    "pagesBefore": 254,
+    "pagesAfter": 327,
+    "pagesDelta": 73,
+    "newPagesInserted": 73,
+    "componentsMoved": 1598,
+    "avgQualityBefore": 63.1,
+    "avgQualityAfter": 93.1,
+    "totalProcessingTimeSec": 52.6
+  }
+}

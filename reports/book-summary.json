@@ -1,0 +1,97 @@
+{
+  "chapters": [
+    {
+      "file": "chapter-01.html",
+      "totalIntendedPages": 28,
+      "overflowingPageCount": 7,
+      "estimatedExtraPages": 7,
+      "estimatedPrintedPages": 35,
+      "inflationPct": 25
+    },
+    {
+      "file": "chapter-02.html",
+      "totalIntendedPages": 20,
+      "overflowingPageCount": 12,
+      "estimatedExtraPages": 12,
+      "estimatedPrintedPages": 32,
+      "inflationPct": 60
+    },
+    {
+      "file": "chapter-03.html",
+      "totalIntendedPages": 19,
+      "overflowingPageCount": 15,
+      "estimatedExtraPages": 15,
+      "estimatedPrintedPages": 34,
+      "inflationPct": 78.9
+    },
+    {
+      "file": "chapter-04.html",
+      "totalIntendedPages": 20,
+      "overflowingPageCount": 18,
+      "estimatedExtraPages": 18,
+      "estimatedPrintedPages": 38,
+      "inflationPct": 90
+    },
+    {
+      "file": "chapter-05.html",
+      "totalIntendedPages": 22,
+      "overflowingPageCount": 13,
+      "estimatedExtraPages": 13,
+      "estimatedPrintedPages": 35,
+      "inflationPct": 59.1
+    },
+    {
+      "file": "chapter-06.html",
+      "totalIntendedPages": 20,
+      "overflowingPageCount": 14,
+      "estimatedExtraPages": 14,
+      "estimatedPrintedPages": 34,
+      "inflationPct": 70
+    },
+    {
+      "file": "chapter-07.html",
+      "totalIntendedPages": 24,
+      "overflowingPageCount": 14,
+      "estimatedExtraPages": 14,
+      "estimatedPrintedPages": 38,
+      "inflationPct": 58.3
+    },
+    {
+      "file": "chapter-08.html",
+      "totalIntendedPages": 25,
+      "overflowingPageCount": 12,
+      "estimatedExtraPages": 12,
+      "estimatedPrintedPages": 37,
+      "inflationPct": 48
+    },
+    {
+      "file": "chapter-09.html",
+      "totalIntendedPages": 26,
+      "overflowingPageCount": 12,
+      "estimatedExtraPages": 12,
+      "estimatedPrintedPages": 38,
+      "inflationPct": 46.2
+    },
+    {
+      "file": "chapter-10.html",
+      "totalIntendedPages": 24,
+      "overflowingPageCount": 14,
+      "estimatedExtraPages": 14,
+      "estimatedPrintedPages": 38,
+      "inflationPct": 58.3
+    },
+    {
+      "file": "chapter-11.html",
+      "totalIntendedPages": 26,
+      "overflowingPageCount": 17,
+      "estimatedExtraPages": 17,
+      "estimatedPrintedPages": 43,
+      "inflationPct": 65.4
+    }
+  ],
+  "totals": {
+    "intended": 254,
+    "overflowing": 148,
+    "printed": 402
+  }
+}
