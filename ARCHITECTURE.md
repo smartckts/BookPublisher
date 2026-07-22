@@ -1,83 +1,97 @@
 # ARCHITECTURE.md
 
-## The problem this solves
+## High-Level Architecture
 
-Chapters are authored as pre-paginated HTML: each `<div class="page">` is meant to be exactly one printed page. The shared design system's CSS defines `.page` with `min-height` (not `height`) plus `page-break-after: always`. Because `min-height` lets a box grow past its floor when content needs more room, and nothing clips it, a page whose real content exceeds the physical A4 printable area silently grows taller than 297mm — and the browser's print engine then inserts an *additional*, uncontrolled page break inside it. One authored page becomes two, three, or more physical pages. Across a real 254-page reference book, this produced ~402 raw printed pages with 58% of pages overflowing (see `reports/phase-reports/PHASE-1-ANALYSIS-REPORT.md`).
-
-The fix is not "make text smaller" (changes appearance) or "just accept the browser's breaks" (wastes enormous space — the reference book's overflow ranged up to +281mm, nearly a full extra page, on a single page). It's **repagination**: figure out where content actually needs to break, respecting document structure, and move whole components to new page boundaries — the same problem professional typesetting/page-layout engines solve, implemented here as a measurement-driven pipeline rather than a hand-tuned template.
-
-## Pipeline stages
+BookPublisher is seven independently-frozen modules, each with exactly one responsibility, chained together by two orchestrators:
 
 ```
-chapters/*.html
-      │
-      ▼
-┌─────────────────┐
-│ Layout Analyzer  │  measures every page & component in real headless Chromium
-└────────┬─────────┘  (print media emulated) — read-only
-         ▼
-┌─────────────────┐
-│  Intelligent     │  classifies components, scores pages, best-fit packs,
-│  Repagination    │  cascades forward, pulls back to fill gaps, inserts new
-│     Engine       │  pages only when nothing else works
-└────────┬─────────┘
-         ▼
-   build/*.optimized.html
-         │
-         ▼
-┌─────────────────┐
-│    Validator     │  20 categories of read-only checks + Book Health scoring
-└────────┬─────────┘
-         ▼
-┌─────────────────┐
-│  PDF Generator   │  Playwright print-to-PDF per chapter, pdf-lib merge +
-│                  │  bookmarks + metadata
-└────────┬─────────┘
-         ▼
-   output/*.pdf, output/book-complete.pdf
+Input HTML
+    |
+    v
+Layout Analyzer v2        measures every page/element, detects overflow amount
+    |
+    v
+Overflow Detector v1      identifies which specific element(s) cause each overflow
+    |
+    v
+Repagination Engine v1    plans safe moves -- never splits protected content
+    |
+    v
+HTML Optimizer v1         applies the plan, re-verifies, repeats up to 5 passes
+    |
+    v
+Print Validator v1        independently certifies reading order & structure intact
+    |
+    v
+   PASS / PASS_WITH_MANUAL_REVIEW / FAIL
+    |
+    v               (FAIL stops here -- no PDF generated)
+PDF Generator v1          renders the certified HTML to a print-ready PDF
+    |
+    v
+book.pdf
 ```
 
-Every arrow is a real, independent module boundary — the Analyzer's measurement code is the *same* code the Optimizer and Validator both call (not reimplemented three times), so their numbers can never silently disagree with each other.
+Layout Analyzer through Print Validator are orchestrated as one command by Build Pipeline v1 (`build.js`). PDF Generator v1 (`pdf-generator.js`) is a deliberately separate final command, gated strictly on Print Validator's own certified status rather than folded into the same invocation.
 
-## Design principles
+## Module Responsibilities
 
-**Never split, never reorder.** Every component (figure, table, activity, photo-plate, recap box, etc.) moves as a whole unit or not at all. Paragraphs and headings are also currently treated as atomic move units — more conservative than strictly necessary (the Component Classification Engine has a `KEEP_TOGETHER` tier that could in principle allow splitting at safe internal seams), but chosen deliberately to guarantee zero risk of visually altering content mid-sentence. Document order is never changed — only page *boundaries* move.
+| Module | Consumes | Produces | Never does |
+|---|---|---|---|
+| Layout Analyzer v2 | Chapter HTML | `layout-report.json` -- every page and recognized element's real, rendered geometry | Never decides what to *do* about overflow, only measures it |
+| Overflow Detector v1 | `layout-report.json` | `overflow-report.json` -- which pages overflow, near-overflow, and their likely cause element | Never re-measures the DOM; never opens a browser |
+| Repagination Engine v1 | `layout-report.json` + `overflow-report.json` | `repagination-plan.json` -- which whole blocks move where | Never touches HTML; never re-detects overflow |
+| HTML Optimizer v1 | Original HTML + a plan | `optimized-chapter.html` + `optimization-report.json` | Never invents a plan of its own; only executes and re-verifies |
+| Print Validator v1 | Optimized HTML (+ original, for comparison) | `print-validation-report.json` -- `PASS`/`PASS_WITH_MANUAL_REVIEW`/`FAIL` | Never trusts HTML Optimizer's claim of success -- re-derives everything from scratch |
+| Build Pipeline v1 | Original HTML | All five reports above + `pipeline-report.json` | Never duplicates any module's logic -- pure sequencing |
+| PDF Generator v1 | Optimized HTML + `print-validation-report.json` | `book.pdf` + `pdf-generation-report.json` | Never analyzes, detects, repaginates, optimizes, or validates -- trusts Print Validator's verdict completely |
 
-**Measure, don't guess.** Every decision the optimizer makes is based on real `getBoundingClientRect()` measurements in a live browser with print media emulated, not on estimated or assumed component sizes. This mattered concretely: a naive whitespace-reduction optimization was initially planned to *assume* a safe gap reduction before it was actually applied to the CSS — verified-wrong (produced real overflow) and corrected to only claim space actually reclaimed.
+## Data Flow
 
-**Three-stage budget, not a hard cutoff.** Pages target an Ideal fill band (≤90% of the content budget) first, are allowed into a Warning band (up to 100%) to avoid an unnecessary extra page, and treat a small buffer past that as the hard Maximum. This produces a page count much closer to the theoretical minimum than a naive "pack to exactly 100%, no more" approach would, without producing pages so full they have zero rendering-variance tolerance.
+```
+chapter.html
+    |  analyzeChapterLayout()
+    v
+layout-report.json
+    |  detectOverflow()
+    v
+overflow-report.json
+    |  repaginate() + assemblePlan() + validatePlan()
+    v
+repagination-plan.json
+    |  optimizeWithVerification()   (loops internally: re-analyze -> re-detect -> re-plan, up to 5x)
+    v
+optimized-chapter.html  +  optimization-report.json
+    |  validateForPrint()
+    v
+print-validation-report.json
+    |  generatePdf()   (gated on the status above)
+    v
+book.pdf  +  pdf-generation-report.json
+```
 
-**Best-fit, not last-fit.** When a page overflows, the engine doesn't just evict the last component — it tests evicting the last 1–3 components (bounded search) and picks whichever eviction count produces the best Page Quality Score net of the Movement Cost of relocating them. This is what keeps churn low: re-optimizing 7 affected chapters after a font-metric change (Phase 5.6) moved only 135 components total, not a full re-derivation.
+Every arrow is a direct function call into the next module's own exported entry point -- never a re-implementation of what came before it. See `DEVELOPER_GUIDE.md`'s Data Flow section for the exact field-level shape of each report.
 
-**Fixed anchors are fixed.** `.page.full-bleed` (covers, section dividers) are never touched — not resized, not reflowed into, not reflowed out of. If a cover overflows, that's a cover-design problem, not a pagination problem, and the pipeline says so rather than attempting a fix outside its authority.
+## Design Principles
 
-**Everything read-only stays read-only, verifiably.** The Validator and the release-audit process never mutate HTML/CSS/PDFs — checked in practice via file checksums and modification timestamps before/after, not merely by code inspection.
+1. **Each module trusts the ones before it, and never re-derives their work.** This is the single rule every other principle below follows from. Overflow Detector never re-measures layout. Repagination Engine never re-detects overflow. HTML Optimizer never re-plans. Print Validator is the one deliberate exception to "trust the previous module" -- it independently re-derives reading order and structure from scratch specifically because it exists to catch the case where an earlier stage's own self-reported success can't be fully trusted.
 
-## Data model
+2. **Document structure and reading order always take priority over overflow elimination.** Established as a direct consequence of a real, significant defect found mid-project (see `docs/WRAPPER_CONTAINER_BUG_ANALYSIS.md`): a paragraph nested inside an untracked HTML wrapper could be incorrectly detached from that wrapper during repagination. The fix didn't just patch that one case -- it became the project's permanent policy. Where automatic resolution isn't safely possible, the pipeline reports `PASS_WITH_MANUAL_REVIEW` rather than silently trading correctness for the appearance of success.
 
-### Component Classification (`config.js` → `COMPONENT_CLASSIFICATION`)
-Every top-level page component is tagged:
-- **Atomic** — figures, tables, activities, photo-plates, boxes, timelines: never split, ever.
-- **Keep-Together** — headings (bonded to whatever follows, so a heading can never end a page with nothing beneath it).
-- **Flexible** — plain paragraphs/lists (currently also treated as atomic move units in practice — see Design Principles above).
+3. **Reuse by import, not by convention.** When a later module needs logic an earlier module already implements correctly (e.g. Repagination Engine's need for geometric containment, which Overflow Detector's `contains`/`topLevelElements` already provide), it imports that function directly. This is enforced structurally, not just as a coding guideline -- see `DEVELOPER_GUIDE.md`'s Coding Standards.
 
-### Three-stage page budget (`config.js` → `PAGE_BUDGET`)
-Derived from the actual CSS margins, not assumed: Ideal ≤224mm, Warning ≤249mm, Maximum 250mm, against a 297mm physical page with 22mm/26mm top/bottom margins.
+4. **The same rendering engine, end to end.** Every module that touches a browser uses Playwright/Chromium -- never a second rendering engine. This was a deliberate, explicit decision at PDF Generator's design stage (see `docs/PDF_GENERATOR_DESIGN.md` section 2): using a different engine for final PDF output would risk subtle rendering differences from what was already measured and validated, reopening exactly the kind of WYSIWYG trust gap this architecture exists to close.
 
-### Page Quality Score (`optimizer/qualityScore.js`)
-0–100, weighted: fill efficiency (40%), structural integrity (30% — orphaned headings, forced splits), break quality (15% — did the page end at a natural seam), overflow (15%, hard-capped at 40 if breached regardless of the other three).
+5. **Defense in depth, not single points of failure.** The wrapper-container fix added both a root-cause correction (Repagination Engine's movability rule) and an independent, structurally-unrelated safety check (HTML Optimizer verifies a node's real DOM parent immediately before detaching it) -- proven, by test, to catch an unsafe move even when the upstream fix is bypassed entirely.
 
-### Component Movement Cost (`optimizer/movementCost.js`)
-`base(by class) + sizeMismatch + cascadeDistance + cohesionBroken + thrash`. Used by the best-fit packer to prefer cheap, low-disruption moves (a paragraph) over expensive ones (a large photo-plate moved several pages away and already moved once this pass).
+6. **Never silently ignore a failure.** A stage that throws stops the pipeline immediately, marks every remaining stage `SKIPPED`, and still produces a complete report describing exactly what happened. Genuine fault-injection testing (`tests/buildPipeline.moduleFailure.test.js`) proves this directly, not just by code inspection.
 
-## Why fonts and pagination are coupled
+## Why Each Module Exists
 
-A page's real height depends on the font actually rendering its text — different font files produce different glyph metrics, line heights, and word-wrap points for the same content at the same font-size. This project measured and repaginated its reference book while the intended fonts (Google Fonts CDN) were silently failing to load in the build environment — every page was measured against *fallback system font* metrics. Fixing the font-loading defect (self-hosting the fonts) was necessary and correct, but it meant every prior pagination decision was calibrated against the wrong metrics. Real fonts render slightly differently, and pages packed right at the budget edge under fallback metrics tipped over under real metrics. **The lesson generalized into the pipeline's operating order: fonts must be correct and loading before the final repagination pass is trusted as final** — documented explicitly in `DEVELOPER_GUIDE.md`.
-
-## Why the Validator has a jitter tolerance, and why that's not the same as a print tolerance
-
-The Validator treats a page as "not overflowing" if it's within 1mm of the physical limit — this absorbs real rendering jitter between two measurements of a page that isn't actually overflowing. But real printing has *zero* tolerance: 297.001mm literally doesn't fit on a 297mm page. This distinction wasn't just theoretical — it produced a real, previously-undetected extra page (a 0.4mm overflow, within the validator's tolerance, but enough to force a genuine extra page in the actual generated PDF) that was only caught by comparing actual PDF page counts against expected HTML page counts during the Phase 6 release audit. The fix wasn't to remove the tolerance (it's still needed to avoid false positives from measurement noise) — it's to always verify final PDF output against expectations directly, not just trust the HTML-level validation.
-
-## Full-bleed pages and margin measurement
-
-Full-bleed pages intentionally ignore the standard content-margin system. Measuring their "fill" against the standard 249mm content budget produces false positives — the analyzer detects `.full-bleed` and scores these pages against the full physical page instead. Related: measuring a page's *content span* (for fill-ratio scoring) via `getBoundingClientRect()` excludes an element's own CSS margin — the first/last component's margin sits outside the measured span but still occupies real page height. Both were found and corrected during development by comparing measured numbers against ground truth, not assumed correct from the start.
+- **Layout Analyzer v2** exists because every downstream decision needs a ground truth of real, rendered geometry -- not an estimate. It's the only module with a legitimate reason to be the "source of truth" for measurement.
+- **Overflow Detector v1** exists to separate *interpreting* a measurement from *taking* the measurement -- a page being over budget and knowing *why* are different concerns, and keeping them in separate, independently-testable modules is what let Repagination Engine be built and changed without ever touching measurement logic.
+- **Repagination Engine v1** exists to separate *deciding what should move* from *actually moving it* -- the riskiest, most failure-prone logic in the whole pipeline (as the wrapper-container defect proved) benefits from being pure, deterministic, and testable with plain JSON fixtures, with zero DOM access to introduce non-determinism.
+- **HTML Optimizer v1** exists because something has to be the one module allowed to mutate HTML, and isolating that capability to a single, narrow, heavily-tested module means every other module can be reasoned about as read-only.
+- **Print Validator v1** exists because "the plan executed without throwing" is not the same claim as "the result is actually correct" -- this module is the project's answer to not taking that gap on faith.
+- **Build Pipeline v1** exists so a user never has to know or care that five separate modules exist -- one command, one report, one honest status.
+- **PDF Generator v1** exists as a deliberately narrow, final step -- kept separate from Build Pipeline specifically so "produce a validated HTML result" and "render that result to PDF" remain two distinct, independently-gateable operations, not one entangled one.
